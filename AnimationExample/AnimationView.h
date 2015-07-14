@@ -12,9 +12,6 @@
 
 - (id) initWithWidth:(CGFloat)width Distance:(CGFloat)distance;
 
-- (void)rotatAngle:(CGFloat)angle;
-
 - (void)beginAnimationWithLayer:(BOOL)flag;
-- (void)endAnimation;
 
 @end
