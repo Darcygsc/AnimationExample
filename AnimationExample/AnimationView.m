@@ -82,7 +82,7 @@
 }
 
 - (void)rotaAnimation {
-    
+    [self.layer removeAllAnimations];
     [UIView animateWithDuration:0.03 animations:^{
         [self rotatAngle:_angle + 10];
     } completion:^(BOOL finished) {
